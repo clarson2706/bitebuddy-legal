@@ -1,0 +1,19 @@
+# BiteBuddy — Legal & Support
+
+BiteBuddy is an iOS app that helps you understand your nutrition using AI-assisted food logging.
+
+## Support
+
+Questions, feedback, account help, or data requests: **clarson2706@gmail.com**
+
+You can delete your account at any time inside the app: **Profile → Delete Account**.
+
+## Legal documents
+
+- [Terms of Service](TERMS_OF_SERVICE.md)
+- [Privacy Policy](PRIVACY_POLICY.md)
+- [AI Nutrition Estimate Consent](AI_NUTRITION_ESTIMATE_CONSENT.md)
+- [Medical & Nutrition Disclaimer](MEDICAL_AND_NUTRITION_DISCLAIMER.md)
+- [Subscription Terms](SUBSCRIPTION_TERMS.md)
+
+BiteBuddy provides informational nutrition estimates only and is not medical advice.
