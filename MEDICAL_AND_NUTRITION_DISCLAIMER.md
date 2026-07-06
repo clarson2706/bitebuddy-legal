@@ -1,8 +1,6 @@
 # Medical and Nutrition Disclaimer
 
-**Draft for attorney review before public launch.**
-
-Version: not_medical_advice_v1 · Effective: [PLACEHOLDER: effective date]
+Version: not_medical_advice_v1 · Effective: July 5, 2026
 
 ## Informational use only
 

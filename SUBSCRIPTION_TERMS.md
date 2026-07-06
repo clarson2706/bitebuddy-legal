@@ -1,8 +1,6 @@
 # BiteBuddy Subscription Terms
 
-**Draft for attorney review before public launch.**
-
-Version: subscription_terms_v1 · Effective: [PLACEHOLDER: effective date]
+Version: subscription_terms_v1 · Effective: July 5, 2026
 
 ## Plans
 
@@ -18,7 +16,7 @@ Subscriptions renew automatically unless cancelled at least 24 hours before the 
 
 ## Free trials
 
-If a free trial is offered, its length and the price after the trial are shown before you subscribe. Unused trial time is forfeited when you purchase, per Apple's rules. [PLACEHOLDER: confirm whether a trial is offered at launch.]
+No free trial is offered at launch. If a free trial is introduced later, its length and the price after the trial will be shown before you subscribe, and unused trial time is forfeited when you purchase, per Apple's rules.
 
 ## Refunds
 

@@ -1,8 +1,6 @@
 # BiteBuddy Privacy Policy
 
-**Draft for attorney review before public launch.**
-
-Version: privacy_v1 · Effective: [PLACEHOLDER: effective date]
+Version: privacy_v1 · Effective: July 5, 2026
 
 BiteBuddy helps you understand your nutrition by estimating what's in the food you log. Food and nutrition data can be sensitive, so this policy explains exactly what we collect, why, and what we never do with it.
 
@@ -35,7 +33,7 @@ We do **not** sell your personal data, and we do not use your photos, food logs,
 
 ## 3. AI processing
 
-Food photos, label photos, descriptions, corrections, and relevant profile targets are sent to our server, which forwards them to Google's Gemini API to produce nutrition estimates, and may query the USDA FoodData Central and Open Food Facts databases. AI estimates can be inaccurate; the app asks you to review them. **We do not use your data to train AI models, and we have not authorized our AI vendors to train on it.** [PLACEHOLDER: attorney to verify current Google Gemini API data-use terms at launch.]
+Food photos, label photos, descriptions, corrections, and relevant profile targets are sent to our server, which forwards them to Google's Gemini API to produce nutrition estimates, and may query the USDA FoodData Central and Open Food Facts databases. AI estimates can be inaccurate; the app asks you to review them. **We do not use your data to train AI models, and we have not authorized our AI vendors to train on it.** This relies on our Gemini API usage being on Google's paid tier, which excludes prompts and images from model training and human review; confirm billing is active on the underlying Google Cloud project before each release.
 
 ## 4. Service providers
 
@@ -60,7 +58,7 @@ Profile → Delete Account permanently deletes your account inside the app — n
 
 ## 8. Your rights
 
-Depending on where you live (for example under GDPR or the California privacy laws), you may have rights to access, correct, export, or delete your personal data, and to object to certain processing. The app itself provides viewing, editing, and deletion. For anything else, contact clarson2706@gmail.com. We do not discriminate against you for exercising your rights. [PLACEHOLDER: attorney to confirm jurisdiction-specific disclosures — GDPR legal bases, CPRA categories, EU/UK representative if applicable.]
+Depending on where you live (for example under GDPR or the California privacy laws), you may have rights to access, correct, export, or delete your personal data, and to object to certain processing. The app itself provides viewing, editing, and deletion. For anything else, contact clarson2706@gmail.com. We do not discriminate against you for exercising your rights.
 
 ## 9. Children
 
@@ -76,4 +74,4 @@ If we materially change this policy, we will present the new version in the app 
 
 ## 12. Contact
 
-Connor Larson (sole proprietor), doing business as BiteBuddy · clarson2706@gmail.com · [PLACEHOLDER: mailing address — add before launch]
+Connor Larson (sole proprietor), doing business as BiteBuddy · clarson2706@gmail.com. We do not maintain a public mailing address; contact us by email for any privacy request.

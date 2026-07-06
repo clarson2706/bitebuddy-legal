@@ -1,8 +1,6 @@
 # BiteBuddy Terms of Service
 
-**Draft for attorney review before public launch.**
-
-Version: terms_v1 · Effective: [PLACEHOLDER: effective date]
+Version: terms_v1 · Effective: July 5, 2026
 
 ## 1. Acceptance of these Terms
 
@@ -76,8 +74,8 @@ We may update these Terms. If we make material changes, we will present the new 
 
 ## 17. Governing law
 
-These Terms are governed by the laws of [PLACEHOLDER: governing law jurisdiction], without regard to conflict-of-law rules. [PLACEHOLDER: venue/dispute resolution clause — attorney to determine.]
+These Terms are governed by the laws of the State of Iowa, United States, without regard to conflict-of-law rules. Any dispute not subject to informal resolution shall be brought in the state or federal courts located in Iowa.
 
 ## 18. Contact
 
-clarson2706@gmail.com [PLACEHOLDER: mailing address — add before launch]
+Connor Larson (sole proprietor), doing business as BiteBuddy · clarson2706@gmail.com. We do not maintain a public mailing address; all notices under these Terms may be given electronically to this email.

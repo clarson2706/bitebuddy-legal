@@ -1,8 +1,6 @@
 # AI Nutrition Estimate Consent
 
-**Draft for attorney review before public launch.**
-
-Version: ai_estimate_consent_v1 · Effective: [PLACEHOLDER: effective date]
+Version: ai_estimate_consent_v1 · Effective: July 5, 2026
 
 Before you use BiteBuddy's scanning features, we want you to understand exactly how they work.
 
