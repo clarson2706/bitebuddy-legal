@@ -1,6 +1,6 @@
 # BiteBuddy Privacy Policy
 
-Version: privacy_v1 · Effective: July 5, 2026
+Version: privacy_v2 · Effective: July 6, 2026
 
 BiteBuddy helps you understand your nutrition by estimating what's in the food you log. Food and nutrition data can be sensitive, so this policy explains exactly what we collect, why, and what we never do with it.
 
@@ -13,6 +13,10 @@ BiteBuddy helps you understand your nutrition by estimating what's in the food y
 **Food photos and scan inputs.** Photos you take or import, barcode numbers, nutrition-label photos, text descriptions, and voice-derived transcripts. Photos are compressed on your device, sent securely for analysis, and are **not stored on our servers** — they are processed to produce an estimate and are not retained as images after the request completes. Voice audio is transcribed on-device by Apple's speech recognition; we receive only the text.
 
 **Food logs and estimates.** The foods you save: names, portions, nutrition values, AI confidence and review flags, your corrections and edits, meal types, and timestamps.
+
+**Weight entries.** If you use the Progress tab, the weight and date you log to track your trend over time. This is health-adjacent information used only to show your own chart and progress toward your goal weight.
+
+**Meal Advisor context.** If you use the "What should I eat?" advisor, whatever you tell it — a restaurant name or the foods you say you have on hand — plus your remaining calorie/macro targets and stated goal for that request. This is sent to produce a suggestion and is not saved as a running log; it is only retained as part of standard request logging (see Device and diagnostic data).
 
 **Usage and progress data.** Scan counts (used to enforce Free/Pro limits), XP/streak/level progress, and cached weekly/monthly report summaries.
 
@@ -35,10 +39,12 @@ We do **not** sell your personal data, and we do not use your photos, food logs,
 
 Food photos, label photos, descriptions, corrections, and relevant profile targets are sent to our server, which forwards them to Google's Gemini API to produce nutrition estimates, and may query the USDA FoodData Central and Open Food Facts databases. AI estimates can be inaccurate; the app asks you to review them. **We do not use your data to train AI models, and we have not authorized our AI vendors to train on it.** This relies on our Gemini API usage being on Google's paid tier, which excludes prompts and images from model training and human review; confirm billing is active on the underlying Google Cloud project before each release.
 
+**Meal Advisor** works the same way: your remaining targets, stated goal, and whatever you enter (a restaurant name or foods on hand) are sent to Gemini to generate a suggestion. When you ask about a restaurant, Gemini may use Google Search to look up that restaurant's current menu — in that case, your restaurant name is used as part of a search query. The same no-training terms described above apply to this feature.
+
 ## 4. Service providers
 
 - **Supabase** — authentication, database, and serverless functions (hosting of your account, logs, and settings).
-- **Google Gemini API** — AI nutrition estimation.
+- **Google Gemini API** — AI nutrition estimation and Meal Advisor suggestions, including Google Search when looking up a restaurant's menu.
 - **USDA FoodData Central / Open Food Facts** — public nutrition databases (they receive food queries/barcodes, never your identity).
 - **RevenueCat and Apple** — subscription management and payment.
 
@@ -50,7 +56,7 @@ Data is stored with Supabase in the United States (AWS us-east-2 via Supabase). 
 
 ## 6. Retention
 
-Your data is retained while your account is active. Scan photos are not retained after analysis. Deleted food logs are removed immediately. When you delete your account, we delete your food logs, saved foods, goals, reports, usage counters, XP history, entitlement records, and profile identifiers, and we ask RevenueCat to delete your subscriber record. A minimal, de-identified deletion audit record (with no user ID) may be kept to prove the deletion happened. Signing up again with the same email starts a fresh account and does not restore old data.
+Your data is retained while your account is active. Scan photos are not retained after analysis. Deleted food logs are removed immediately. When you delete your account, we delete your food logs, weight entries, saved foods, goals, reports, usage counters, XP history, entitlement records, and profile identifiers, and we ask RevenueCat to delete your subscriber record. A minimal, de-identified deletion audit record (with no user ID) may be kept to prove the deletion happened. Signing up again with the same email starts a fresh account and does not restore old data.
 
 ## 7. Deleting your account
 
