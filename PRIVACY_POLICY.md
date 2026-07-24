@@ -1,6 +1,6 @@
 # BiteBuddy Privacy Policy
 
-Version: privacy_v2 · Effective: July 6, 2026
+Version: privacy_v3 · Effective: July 6, 2026
 
 BiteBuddy helps you understand your nutrition by estimating what's in the food you log. Food and nutrition data can be sensitive, so this policy explains exactly what we collect, why, and what we never do with it.
 
@@ -12,11 +12,13 @@ BiteBuddy helps you understand your nutrition by estimating what's in the food y
 
 **Food photos and scan inputs.** Photos you take or import, barcode numbers, nutrition-label photos, text descriptions, and voice-derived transcripts. Photos are compressed on your device, sent securely for analysis, and are **not stored on our servers** — they are processed to produce an estimate and are not retained as images after the request completes. Voice audio is transcribed on-device by Apple's speech recognition; we receive only the text.
 
-**Food logs and estimates.** The foods you save: names, portions, nutrition values, AI confidence and review flags, your corrections and edits, meal types, and timestamps.
+**Food logs, verified nutrition, and estimates.** The foods you save: names, portions, nutrition values, source labels (for example AI estimate, barcode lookup, nutrition label, USDA data, manual entry, or verified restaurant menu), confidence and review flags, your corrections and edits, meal types, and timestamps.
 
 **Weight entries.** If you use the Progress tab, the weight and date you log to track your trend over time. This is health-adjacent information used only to show your own chart and progress toward your goal weight.
 
-**Meal Advisor context.** If you use the "What should I eat?" advisor, whatever you tell it — a restaurant name or the foods you say you have on hand — plus your remaining calorie/macro targets and stated goal for that request. This is sent to produce a suggestion and is not saved as a running log; it is only retained as part of standard request logging (see Device and diagnostic data).
+**Meal Advisor context.** If you use the "What should I eat?" advisor, whatever you tell it — a restaurant name, foods you say you have on hand, or a menu/photo description — plus your remaining calorie/macro targets and stated goal for that request. This is sent to produce a suggestion and is not saved as a running log; it is only retained as part of standard request logging (see Device and diagnostic data).
+
+**Restaurant menu reference data.** BiteBuddy stores public restaurant menu and nutrition reference data, such as item names, calories, macros, source URLs, source dates, and whether an item is active. This reference data is not personal data unless you choose to log a recommendation to your own account.
 
 **Usage and progress data.** Scan counts (used to enforce Free/Pro limits), XP/streak/level progress, and cached weekly/monthly report summaries.
 
@@ -39,12 +41,12 @@ We do **not** sell your personal data, and we do not use your photos, food logs,
 
 Food photos, label photos, descriptions, corrections, and relevant profile targets are sent to our server, which forwards them to Google's Gemini API to produce nutrition estimates, and may query the USDA FoodData Central and Open Food Facts databases. AI estimates can be inaccurate; the app asks you to review them. **We do not use your data to train AI models, and we have not authorized our AI vendors to train on it.** This relies on our Gemini API usage being on Google's paid tier, which excludes prompts and images from model training and human review; confirm billing is active on the underlying Google Cloud project before each release.
 
-**Meal Advisor** works the same way: your remaining targets, stated goal, and whatever you enter (a restaurant name or foods on hand) are sent to Gemini to generate a suggestion. When you ask about a restaurant, Gemini may use Google Search to look up that restaurant's current menu — in that case, your restaurant name is used as part of a search query. The same no-training terms described above apply to this feature.
+**Meal Advisor** uses trust levels. For supported restaurants, BiteBuddy first checks its verified restaurant menu database and may rank exact menu items using deterministic scoring and, when configured, Gemini for wording/ranking only. Exact item names and nutrition values for verified recommendations come from the stored menu reference rows, not from model text. For foods you say you have on hand, menu photos, or restaurants without verified menu coverage, Meal Advisor may use Gemini to generate an estimate. Future online lookup features may use restaurant names or menu item text as search queries to find public nutrition sources. In every non-verified case, the app labels the result as an estimate or sourced lookup and asks you to review it before saving. The same no-training terms described above apply to AI processing.
 
 ## 4. Service providers
 
 - **Supabase** — authentication, database, and serverless functions (hosting of your account, logs, and settings).
-- **Google Gemini API** — AI nutrition estimation and Meal Advisor suggestions, including Google Search when looking up a restaurant's menu.
+- **Google Gemini API** — AI nutrition estimation and Meal Advisor suggestions, including ranking/explanation help for verified menu options and estimate-only suggestions when verified data is unavailable.
 - **USDA FoodData Central / Open Food Facts** — public nutrition databases (they receive food queries/barcodes, never your identity).
 - **RevenueCat and Apple** — subscription management and payment.
 
@@ -72,7 +74,7 @@ BiteBuddy requires users to be at least 16 years old. We do not knowingly collec
 
 ## 10. App Store privacy labels
 
-Our App Store privacy disclosures list: Health & Fitness data, Photos (processed, not retained), Name, Email, User ID, and Other User Content — all linked to your account, none used for tracking.
+Our App Store privacy disclosures list: Health & Fitness data, Photos (processed, not retained), Name, Email, User ID, Purchases, and Other User Content — all linked to your account, none used for tracking.
 
 ## 11. Changes
 

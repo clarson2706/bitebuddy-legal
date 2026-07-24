@@ -1,10 +1,10 @@
 # Medical and Nutrition Disclaimer
 
-Version: not_medical_advice_v1 · Effective: July 5, 2026
+Version: not_medical_advice_v2 · Effective: July 6, 2026
 
 ## Informational use only
 
-BiteBuddy provides general nutrition information and AI-generated estimates for informational and educational purposes only. Nutrition values, calorie targets, macro plans, reports, insights, and mascot reactions are estimates and encouragement — not professional guidance.
+BiteBuddy provides general nutrition information, verified-menu reference data, and AI-generated estimates for informational and educational purposes only. Nutrition values, calorie targets, macro plans, reports, insights, Meal Advisor suggestions, and mascot reactions are estimates, reference information, and encouragement — not professional guidance.
 
 ## Not medical advice
 
@@ -27,4 +27,4 @@ Always consult a physician, registered dietitian, or other qualified professiona
 
 ## Accuracy
 
-AI and database nutrition values may be wrong or out of date. Calorie and macro targets are generic calculations from the information you enter, bounded by conservative guardrails, and may not be appropriate for your individual health situation.
+AI, barcode, public database, and restaurant menu nutrition values may be wrong, incomplete, regional, unavailable at your location, or out of date. "Verified" means BiteBuddy is using stored public menu reference data for exact item names and nutrition values; it does not mean the food is medically safe, allergen-safe, available, or guaranteed accurate. Calorie and macro targets are generic calculations from the information you enter, bounded by conservative guardrails, and may not be appropriate for your individual health situation.
