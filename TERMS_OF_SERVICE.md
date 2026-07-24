@@ -1,6 +1,6 @@
 # BiteBuddy Terms of Service
 
-Version: terms_v1 · Effective: July 5, 2026
+Version: terms_v2 · Effective: July 6, 2026
 
 ## 1. Acceptance of these Terms
 
@@ -14,13 +14,15 @@ You must be at least 16 years old to use BiteBuddy. By creating an account you c
 
 You are responsible for keeping your login credentials confidential and for all activity on your account. Tell us promptly at clarson2706@gmail.com if you believe your account has been compromised.
 
-## 4. AI nutrition estimates
+## 4. Nutrition information, verified menu data, and AI estimates
 
-BiteBuddy uses artificial intelligence to estimate nutrition information from food photos, nutrition labels, barcodes, text, and voice descriptions.
+BiteBuddy provides nutrition information from several sources, including manual entries, barcode lookups, nutrition labels, public databases, verified restaurant menu reference data, and artificial intelligence.
 
 - **Estimates are approximate.** AI results can be wrong, incomplete, or uncertain. Portion sizes, ingredients, and nutrition values are estimates, not measurements.
-- **You must review results.** You are responsible for reviewing and, where needed, editing every estimate before saving it. BiteBuddy shows editing tools on every result screen for this reason.
-- **No guarantee of accuracy.** We do not promise that any estimate, total, target, report, or insight is accurate, complete, or suitable for any particular purpose.
+- **Verified restaurant items are limited.** When BiteBuddy labels a restaurant suggestion as verified, the exact item names and displayed nutrition values come from stored restaurant menu reference data. That data can still be incomplete, out of date, regional, or different from what a restaurant serves at a specific location.
+- **Online or AI-only suggestions require review.** If BiteBuddy labels a result as an estimate, sourced lookup, or review-required item, it may be inaccurate and the item may not exist exactly as shown.
+- **You must review results.** You are responsible for reviewing and, where needed, editing every estimate or non-verified suggestion before saving it. BiteBuddy shows editing tools and source labels for this reason.
+- **No guarantee of accuracy.** We do not promise that any estimate, verified menu value, total, target, report, or insight is accurate, complete, current, available at your location, or suitable for any particular purpose.
 
 ## 5. Not medical advice
 
@@ -30,7 +32,7 @@ Do **not** rely on BiteBuddy for allergy decisions, medical conditions, diabetes
 
 ## 6. Food photos and content you provide
 
-When you scan food, you send us photos, text, voice transcriptions, and corrections so BiteBuddy can produce an estimate. You confirm you have the right to submit that content. We use it to operate the service as described in the Privacy Policy. We do not use your photos or logs to train AI models.
+When you scan food or use Meal Advisor, you send us photos, text, voice transcriptions, restaurant/menu context, and corrections so BiteBuddy can produce nutrition information, verified menu matches, or estimates. You confirm you have the right to submit that content. We use it to operate the service as described in the Privacy Policy. We do not use your photos or logs to train AI models.
 
 ## 7. Acceptable use
 
@@ -54,11 +56,11 @@ If you send us feedback or suggestions, you grant us a perpetual, irrevocable, r
 
 ## 12. Disclaimers
 
-THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT ESTIMATES ARE ACCURATE OR THAT THE SERVICE WILL BE UNINTERRUPTED OR ERROR-FREE.
+THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AVAILABILITY, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT ESTIMATES, VERIFIED MENU DATA, RESTAURANT AVAILABILITY, OR SOURCE INFORMATION ARE ACCURATE, CURRENT, COMPLETE, OR THAT THE SERVICE WILL BE UNINTERRUPTED OR ERROR-FREE.
 
 ## 13. Limitation of liability
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY HEALTH OUTCOME, DIETARY DECISION, OR RELIANCE ON ANY ESTIMATE. OUR TOTAL LIABILITY FOR ANY CLAIM IS LIMITED TO THE GREATER OF (A) THE AMOUNT YOU PAID US IN THE 12 MONTHS BEFORE THE CLAIM AND (B) USD $50. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY HEALTH OUTCOME, DIETARY DECISION, RESTAURANT ORDER, OR RELIANCE ON ANY ESTIMATE, VERIFIED MENU DATA, OR SOURCE INFORMATION. OUR TOTAL LIABILITY FOR ANY CLAIM IS LIMITED TO THE GREATER OF (A) THE AMOUNT YOU PAID US IN THE 12 MONTHS BEFORE THE CLAIM AND (B) USD $50. Some jurisdictions do not allow certain limitations, so parts of this section may not apply to you.
 
 ## 14. Indemnity
 
