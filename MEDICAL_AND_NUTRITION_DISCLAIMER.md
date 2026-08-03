@@ -1,6 +1,6 @@
 # Medical and Nutrition Disclaimer
 
-Version: not_medical_advice_v2 · Effective: July 6, 2026
+Version: not_medical_advice_v3 · Effective: July 16, 2026
 
 ## Informational use only
 
@@ -10,12 +10,16 @@ BiteBuddy provides general nutrition information, verified-menu reference data, 
 
 BiteBuddy is not a medical device and does not provide medical advice, diagnosis, or treatment. BiteBuddy is not a dietitian, nutritionist, or healthcare service, and using it does not create a professional–patient relationship.
 
+## Buddy's simulation is illustrative, not medical monitoring
+
+The Buddy avatar's reactions, its "modeled energy" and "modeled comfort" indicators, and any meal-response timeline are an illustrative simulation calculated from your logged food and profile inputs (such as body weight and activity level). This simulation is not a glucose monitor, continuous glucose monitor (CGM), insulin calculator, wearable sensor reading, or any other medical device, and it does not measure, sense, or diagnose your actual blood glucose, insulin, or physiological state. It is a simplified, population-average model shown for entertainment and general education, has not been clinically validated, and is never a personal medical readout. Never use it for diabetes management, insulin or medication dosing, or any other medical decision.
+
 ## Not for high-risk decisions
 
 Do not use BiteBuddy for:
 
 - **Allergies.** Estimates cannot detect allergens reliably. Never use BiteBuddy to decide whether a food is safe for an allergy.
-- **Diabetes.** Never use estimates for insulin or medication dosing.
+- **Diabetes.** Never use estimates, or Buddy's illustrative simulation, for insulin or medication dosing.
 - **Eating disorders.** If you have or are recovering from an eating disorder, calorie tracking may not be appropriate for you — please follow your care team's guidance.
 - **Therapeutic diets.** Sodium-restricted, renal, cardiac, or other medically prescribed diets require professional supervision; sodium estimates are especially uncertain.
 - **Pregnancy nutrition.** Follow guidance from your healthcare provider.

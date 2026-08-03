@@ -1,6 +1,6 @@
 # BiteBuddy Terms of Service
 
-Version: terms_v2 · Effective: July 6, 2026
+Version: terms_v3 · Effective: July 16, 2026
 
 ## 1. Acceptance of these Terms
 
@@ -29,6 +29,8 @@ BiteBuddy provides nutrition information from several sources, including manual 
 BiteBuddy provides general nutrition information for informational and educational purposes only. BiteBuddy is **not** medical advice, dietitian advice, diagnosis, treatment, or a medical device, and no content in the app creates a professional–patient relationship.
 
 Do **not** rely on BiteBuddy for allergy decisions, medical conditions, diabetes management or insulin dosing, eating-disorder recovery, sodium-restricted or other therapeutic diets, pregnancy nutrition, medication interactions, or emergencies. Always consult a qualified health professional for medical or nutrition decisions, and call your local emergency number in an emergency.
+
+Buddy's meal-response simulation — including any "modeled energy," "modeled comfort," or timeline shown in the app — is a simplified, illustrative model of a typical body's response to logged food, calculated from your food logs and profile inputs. It is not a personal medical reading, glucose monitor, or insulin calculator, has not been clinically validated, and must not be used for diabetes management, insulin dosing, or any other medical decision. See the Medical and Nutrition Disclaimer for details.
 
 ## 6. Food photos and content you provide
 
