@@ -1,6 +1,6 @@
 # BiteBuddy Privacy Policy
 
-Version: privacy_v3 · Effective: July 6, 2026
+Version: privacy_v4 · Effective: August 3, 2026
 
 BiteBuddy helps you understand your nutrition by estimating what's in the food you log. Food and nutrition data can be sensitive, so this policy explains exactly what we collect, why, and what we never do with it.
 
@@ -26,7 +26,9 @@ BiteBuddy helps you understand your nutrition by estimating what's in the food y
 
 **Device and diagnostic data.** Basic request logs (timestamps, request IDs, error codes) needed to operate and secure the service. Our logs are written to exclude photos, tokens, emails, and food contents.
 
-We do **not** collect your precise location, contacts, or advertising identifiers, and we do not track you across other companies' apps or websites.
+**Advertising and attribution data — only if you allow tracking.** If BiteBuddy asks for permission to track and you allow it, we share your device's advertising identifier (IDFA) and a small set of app events with TikTok so we can tell which advertisements brought people to BiteBuddy. The events are: installing the app, opening it, creating an account, starting a subscription trial, and completing a purchase. They record that the action happened — they never include your food logs, photos, weight, goals, or health-adjacent data. **If you decline, no advertising identifier and no attribution events are shared, and BiteBuddy works exactly the same.** You can change your answer at any time in iOS Settings → Privacy & Security → Tracking.
+
+We do **not** collect your precise location or contacts.
 
 ## 2. How we use data
 
@@ -34,8 +36,11 @@ We do **not** collect your precise location, contacts, or advertising identifier
 - To personalize: your profile targets shape estimates, insights, and reports.
 - To enforce plan limits and prevent abuse (scan quotas, rate limits).
 - To provide support and maintain security.
+- To measure advertising, if you allow tracking: to learn which advertisements led to installs, account creation, and subscriptions, so we do not waste money on advertising that does not work.
 
-We do **not** sell your personal data, and we do not use your photos, food logs, or health-adjacent data for advertising.
+We do **not** sell your personal data for money, and we do not use your photos, food logs, weight, goals, or any other health-adjacent data for advertising — none of it is shared with TikTok or any other advertising company.
+
+Sharing an advertising identifier with TikTok for attribution and retargeting counts as "sharing" personal information for cross-context behavioural advertising under California law, and as targeted advertising under some other state laws. **Declining the tracking prompt, or turning tracking off in iOS Settings, opts you out of it entirely.**
 
 ## 3. AI processing
 
@@ -49,6 +54,7 @@ Food photos, label photos, descriptions, corrections, and relevant profile targe
 - **Google Gemini API** — AI nutrition estimation and Meal Advisor suggestions, including ranking/explanation help for verified menu options and estimate-only suggestions when verified data is unavailable.
 - **USDA FoodData Central / Open Food Facts** — public nutrition databases (they receive food queries/barcodes, never your identity).
 - **RevenueCat and Apple** — subscription management and payment.
+- **TikTok** — advertising measurement, and only if you allow tracking. TikTok receives your advertising identifier and the attribution events listed in Section 1. It does not receive your email, food logs, photos, weight, or goals. TikTok acts as an independent controller of this data under its own [privacy policy](https://www.tiktok.com/legal/privacy-policy).
 
 Each provider receives only what it needs to perform its function.
 
@@ -68,13 +74,15 @@ Profile → Delete Account permanently deletes your account inside the app — n
 
 Depending on where you live (for example under GDPR or the California privacy laws), you may have rights to access, correct, export, or delete your personal data, and to object to certain processing. The app itself provides viewing, editing, and deletion. For anything else, contact clarson2706@gmail.com. We do not discriminate against you for exercising your rights.
 
+**Opting out of advertising measurement.** Decline the tracking prompt, or turn BiteBuddy off under iOS Settings → Privacy & Security → Tracking. That is the complete opt-out: no advertising identifier and no attribution events leave your device. It has no effect on anything else in the app.
+
 ## 9. Children
 
 BiteBuddy requires users to be at least 16 years old. We do not knowingly collect data from anyone under 16. If you believe a child under 16 has an account, contact clarson2706@gmail.com and we will delete it.
 
 ## 10. App Store privacy labels
 
-Our App Store privacy disclosures list: Health & Fitness data, Photos (processed, not retained), Name, Email, User ID, Purchases, and Other User Content — all linked to your account, none used for tracking.
+Our App Store privacy disclosures list: Health & Fitness data, Photos (processed, not retained), Name, Email, User ID, Purchases, and Other User Content — all linked to your account and none used for tracking — plus, under "Data Used to Track You", your Device ID (advertising identifier) and Product Interaction, which are shared with TikTok for advertising measurement only when you allow tracking.
 
 ## 11. Changes
 
